@@ -1,3 +1,3 @@
 # Swift101
 
-## Day 1 . Variables
+## Day 1 | Variables
