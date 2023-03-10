@@ -22,7 +22,7 @@ let pi = 3.14
 
 Double(myAge) + pi
 
-var myNumber = "50"
+var myNumber = "45"
 
 myAge + Int(myNumber)!
 
