@@ -32,6 +32,10 @@ var myNumberArray = [1,2,3,4,5,6,7,1,3,5,6]
 myNumberArray.append(8) //sonuna eleman ekler
 myNumberArray.last
 
+myNumberArray[0] = 15
+print(myNumberArray)
+
+
 //Set (Unordered Collection(Sırasız Koleksiyon))
 //Setler dizi gibi fakat indexleme yok. Aynı elemandan sadece 1 tane olabilir.
 
@@ -49,3 +53,24 @@ var mySet2 : Set = [3,4,5]
 var mySet3 = mySet1.union(mySet2) //Union birleştirmeye yarar.
 
 print(mySet3)
+
+//Dictionary
+//Key-value pairing !! Önemli
+
+var myFavoriteDirectors = ["Pulp Fiction" : "Tarantino", "Locks, Stock" : "Guy Ritchie" , "The Dark Knight" : "Christopher Nolan"]
+
+myFavoriteDirectors["Pulp Fiction"]
+myFavoriteDirectors["The Dark Knight"]
+
+myFavoriteDirectors["Pulp Fiction"] = "Quentin Tarantino"
+
+print(myFavoriteDirectors)
+
+myFavoriteDirectors["Seven Samurai"] = "Akira Kurisowa"
+
+print(myFavoriteDirectors)
+
+
+var myDictionary = ["Run" : 100 , "Swim" : 200 , "Basketball" : 300]
+
+myDictionary["Run"]
