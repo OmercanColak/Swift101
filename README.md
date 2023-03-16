@@ -4,4 +4,6 @@
 
 ## Day 2 | Arrays
 
-## Day 3 | Loops
+## Day 3 | Loops 
+
+## Day 4 | If Control
